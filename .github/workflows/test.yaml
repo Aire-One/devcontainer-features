@@ -14,7 +14,7 @@ jobs:
       matrix:
         features:
           - lua
-          - luarocks
+          # - luarocks # luarocks feature depends on lua
         baseImage:
           - debian:latest
           - ubuntu:latest

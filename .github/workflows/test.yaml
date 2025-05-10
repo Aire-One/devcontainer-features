@@ -12,7 +12,8 @@ jobs:
     continue-on-error: true
     strategy:
       matrix:
-        features: []
+        features:
+          - lua
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -31,7 +32,8 @@ jobs:
     continue-on-error: true
     strategy:
       matrix:
-        features: []
+        features:
+          - lua
     steps:
       - uses: actions/checkout@v4
 

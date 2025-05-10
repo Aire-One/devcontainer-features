@@ -1,0 +1,16 @@
+{
+    "name": "Lua",
+    "id": "lua",
+    "version": "1.0.0",
+    "description": "Lua is a powerful, efficient, lightweight, embeddable scripting language.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "5.4.7",
+            "description": "The Lua version to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

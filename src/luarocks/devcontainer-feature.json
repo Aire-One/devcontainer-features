@@ -1,0 +1,17 @@
+{
+    "name": "LuaRocks",
+    "id": "luarocks",
+    "version": "1.0.0",
+    "description": "LuaRocks is a package manager for Lua modules.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "3.11.1",
+            "description": "The LuaRocks version to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+        // "ghcr.io/devcontainers/features/lua
+    ]
+}

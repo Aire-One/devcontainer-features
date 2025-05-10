@@ -1,13 +1,9 @@
 {
-    "color_and_hello": {
+    "lua_and_luarocks": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
-            }
+            "lua": {},
+            "luarocks": {}
         }
     }
 }

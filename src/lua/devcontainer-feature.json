@@ -6,7 +6,12 @@
     "options": {
         "version": {
             "type": "string",
-            "default": "5.4.7",
+            "enum": [
+                "5.1.5",
+                "5.3.6",
+                "5.4.8"
+            ],
+            "default": "5.4.8",
             "description": "The Lua version to install."
         }
     },

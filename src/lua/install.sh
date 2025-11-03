@@ -23,7 +23,21 @@ apt-get install -y \
 
 curl -L -R -O https://www.lua.org/ftp/lua-${VERSION}.tar.gz
 
-# TODO: test checksum
+# Validate checksum
+checksum=""
+case "$VERSION" in
+    5.1.5)
+        checksum="2640fc56a795f29d28ef15e13c34a47e223960b0240e8cb0a82d9b0738695333"
+        ;;
+    5.3.6)
+        checksum="fc5fd69bb8736323f026672b1b7235da613d7177e72558893a0bdcd320466d60"
+        ;;
+    5.4.8)
+        checksum="4f18ddae154e793e46eeab727c59ef1c0c0c2b744e7b94219710d76f530629ae"
+        ;;
+esac
+
+echo "${checksum} lua-${VERSION}.tar.gz" | sha256sum -c -
 
 # Extract, build, and install Lua
 tar xzf lua-${VERSION}.tar.gz

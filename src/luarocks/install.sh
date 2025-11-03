@@ -14,7 +14,7 @@ wget https://luarocks.github.io/luarocks/releases/luarocks-${VERSION}.tar.gz -O 
 
 cd luarocks-${VERSION}
 
-./configure --with-lua=/usr/local
+./configure
 make build
 make install
 

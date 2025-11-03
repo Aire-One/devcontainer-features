@@ -7,11 +7,11 @@
         "version": {
             "type": "string",
             "default": "3.11.1",
-            "description": "The LuaRocks version to install."
+            "description": "The LuaRocks version to install. Should be a valid LuaRocks release version from https://github.com/luarocks/luarocks/releases."
         }
     },
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
-        // "ghcr.io/devcontainers/features/lua
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/Aire-One/devcontainer-features/lua"
     ]
 }

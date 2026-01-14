@@ -9,9 +9,10 @@
             "enum": [
                 "5.1.5",
                 "5.3.6",
-                "5.4.8"
+                "5.4.8",
+                "5.5.0"
             ],
-            "default": "5.4.8",
+            "default": "5.5.0",
             "description": "The Lua version to install."
         }
     },

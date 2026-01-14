@@ -7,7 +7,7 @@ LuaRocks is a package manager for Lua modules.
 
 ```json
 "features": {
-    "ghcr.io/Aire-One/devcontainer-features/luarocks:1": {}
+    "ghcr.io/Aire-One/devcontainer-features/luarocks:2": {}
 }
 ```
 

@@ -7,7 +7,7 @@ Lua is a powerful, efficient, lightweight, embeddable scripting language.
 
 ```json
 "features": {
-    "ghcr.io/Aire-One/devcontainer-features/lua:1": {}
+    "ghcr.io/Aire-One/devcontainer-features/lua:2": {}
 }
 ```
 

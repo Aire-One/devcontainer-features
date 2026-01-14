@@ -8,7 +8,7 @@ apt-get install -y \
     tar \
     wget
 
-VERSION="${VERSION:-"3.11.1"}"
+VERSION="${VERSION:-"3.13.0"}"
 
 wget https://luarocks.github.io/luarocks/releases/luarocks-${VERSION}.tar.gz -O - | tar -xzf -
 

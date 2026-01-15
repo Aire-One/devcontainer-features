@@ -1,7 +1,7 @@
 {
     "name": "Lua",
     "id": "lua",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "Lua is a powerful, efficient, lightweight, embeddable scripting language.",
     "options": {
         "version": {
@@ -10,7 +10,8 @@
                 "5.1.5",
                 "5.3.6",
                 "5.4.8",
-                "5.5.0"
+                "5.5.0",
+                "luajit"
             ],
             "default": "5.5.0",
             "description": "The Lua version to install."

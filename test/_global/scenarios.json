@@ -5,5 +5,14 @@
             "lua": {},
             "luarocks": {}
         }
+    },
+    "luajit_and_luarocks": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "lua": {
+                "version": "luajit"
+            },
+            "luarocks": {}
+        }
     }
 }

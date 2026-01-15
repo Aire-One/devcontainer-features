@@ -13,12 +13,15 @@
                 ]
             },
             "extensions": [
-                "mads-hartmann.bash-ide-vscode"
+                "mads-hartmann.bash-ide-vscode",
+                "timonwong.shellcheck",
+                "foxundermoon.shell-format"
             ]
         }
     },
     "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers-extra/features/shfmt:1": {}
     },
     "remoteUser": "node",
     "updateContentCommand": "npm install -g @devcontainers/cli",

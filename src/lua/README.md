@@ -15,7 +15,7 @@ Lua is a powerful, efficient, lightweight, embeddable scripting language.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | The Lua version to install. | string | 5.5.0 |
+| version | The Lua version to install. | string | 5.5.1 |
 
 
 

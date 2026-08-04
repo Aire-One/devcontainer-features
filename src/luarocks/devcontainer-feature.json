@@ -1,17 +1,17 @@
 {
-    "name": "LuaRocks",
-    "id": "luarocks",
-    "version": "2.0.0",
-    "description": "LuaRocks is a package manager for Lua modules.",
-    "options": {
-        "version": {
-            "type": "string",
-            "default": "3.13.0",
-            "description": "The LuaRocks version to install. Should be a valid LuaRocks release version from https://github.com/luarocks/luarocks/releases."
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils",
-        "ghcr.io/Aire-One/devcontainer-features/lua"
-    ]
+  "name": "LuaRocks",
+  "id": "luarocks",
+  "version": "2.0.0",
+  "description": "LuaRocks is a package manager for Lua modules.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "3.13.0",
+      "description": "The LuaRocks version to install. Should be a valid LuaRocks release version from https://github.com/luarocks/luarocks/releases."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/Aire-One/devcontainer-features/lua"
+  ]
 }

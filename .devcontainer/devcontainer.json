@@ -11,7 +11,7 @@
     }
   },
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:4.0.0": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:4.1.0": {},
     "ghcr.io/devcontainers-extra/features/shfmt:1": {} // required for shell formatting and shell-format extension
   },
   "remoteUser": "node",
